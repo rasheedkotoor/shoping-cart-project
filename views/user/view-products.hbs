@@ -13,7 +13,7 @@
                             <p class="card-text">{{this.Description}}</p>
                             <p class="card-text">{{this.Category}}</p>
                             <h6 class="card-text">{{this.Price}}</h6>
-                            <a href="/add-to-cart/{{this._id}}" class="btn btn-primary float-right">Add to cart</a>
+                            <button onclick="addToCart('{{this._id}}')" class="btn btn-primary float-right">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -22,3 +22,4 @@
             </div>
         </div>
     </section>
+
